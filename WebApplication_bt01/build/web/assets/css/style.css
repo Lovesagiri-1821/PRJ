@@ -1,0 +1,36 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    margin: 0;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+}
+
+.form-wrapper {
+    border-radius: 20px;
+    background-color: #ffffff;
+    max-width: 500px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+h2 {
+    font-weight: 600;
+    color: #333;
+}
+
+input, select, textarea {
+    border-radius: 10px !important;
+}
+
+.btn {
+    border-radius: 12px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+}
